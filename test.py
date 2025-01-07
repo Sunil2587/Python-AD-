@@ -1,4 +1,4 @@
-print (" hello ")print("hello  hi")
+print("hello  hi")
 
 a="test"
 b="lab"
