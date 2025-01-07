@@ -47,3 +47,13 @@ str1 ="helo world removing extra spaces"
 print(str1.split())
 
 
+students = {
+    1: {"name": "google", "age": 14},
+    2: {"name": "deloite", "age": 20},
+    3: {"name": "sunil", "age": 19},
+    4: {"name": "pwc", "age": 12},
+    5: {"name": "ss", "age": 89},
+}
+
+for student_id, details in students.items():
+    print(f"Student ID: {student_id}, Name: {details['name']}, Age: {details['age']}")
