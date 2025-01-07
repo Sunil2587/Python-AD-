@@ -57,3 +57,5 @@ students = {
 
 for student_id, details in students.items():
     print(f"Student ID: {student_id}, Name: {details['name']}, Age: {details['age']}")
+
+
